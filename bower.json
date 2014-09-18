@@ -1,11 +1,11 @@
 {
-  "name": "node-snowflake",
+  "name": "angular-snowflake",
   "version": "0.0.1",
   "description": "an AngularJS service clone of Twitter snowflake",
   "main": "src/snowflake.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/PortChaw/node-snowflake.git"
+    "url": "http://github.com/PortChaw/angular-snowflake.git"
   },
   "keywords": [
     "AngularJS",
@@ -16,7 +16,7 @@
   "author": "Kurten Chan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PortChaw/node-snowflake/issues"
+    "url": "https://github.com/PortChaw/angular-snowflake/issues"
   },
   "dependencies": {
     "angular": "~1.2.25",
