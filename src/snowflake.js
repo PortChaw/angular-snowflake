@@ -8,7 +8,7 @@
 
 var ngSnowflake = angular.module('ngSnowflake', []);
 ngSnowflake.factory('snowflakeService', function() {
-    var snowflake;
+    var snowflake = {};
     var twepoch = 1288834974657;
     var workerIdBits = 5;
     var dataCenterIdBits = 5;
