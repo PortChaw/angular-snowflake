@@ -8,10 +8,9 @@ module.exports = function (config) {
     frameworks: ['jasmine'],
 
     files: [
-      'bower_components/jsbn/jsbn.js',
-      'bower_components/jsbn/jsbn2.js',
       'bower_components/angular/angular.js',
       'bower_components/angular-mocks/angular-mocks.js',
+      'bower_components/angular-jsbn-big-integer/big-integer.js',
       'src/snowflake.js',
       'test/*.spec.js'
     ],

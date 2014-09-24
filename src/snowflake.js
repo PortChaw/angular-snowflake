@@ -6,8 +6,8 @@
  * Description:
  */
 
-var ngSnowflake = angular.module('ngSnowflake', []);
-ngSnowflake.factory('snowflakeService', function() {
+var ngSnowflake = angular.module('ngSnowflake', ['jsbn.BigInteger']);
+ngSnowflake.factory('snowflakeService', function(BigInteger) {
     var snowflake = {};
     var twepoch = 1288834974657;
     var workerIdBits = 5;
