@@ -3,13 +3,35 @@
   "version": "0.0.1",
   "description": "an AngularJS clone of Twitter snowflake",
   "main": "src/snowflake.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "angular-jsbn-big-integer": "git+https://github.com/andyperlitch/angular-jsbn-big-integer.git"
+  },
+  "devDependencies": {
+    "angular": "^1.5.3",
+    "angular-mocks": "^1.5.3",
+    "karma": "^0.10.10",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-coffee-preprocessor": "^0.1.3",
+    "karma-firefox-launcher": "^0.1.3",
+    "karma-html2js-preprocessor": "^0.1.0",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-requirejs": "^0.2.2",
+    "karma-script-launcher": "^0.1.0",
+    "requirejs": "^2.1.15"
+  },
+  "scripts": {
+    "test": "karma start karma.unit.conf.js --single-run"
+  },
   "repository": {
     "type": "git",
-    "url": "http://github.com/PortChaw/angular-snowflake.git"
+    "url": "git+https://github.com/PortChaw/angular-snowflake.git"
   },
   "keywords": [
     "AngularJS",
-    "javascript",
     "snowflake",
     "twitter"
   ],
@@ -18,12 +40,5 @@
   "bugs": {
     "url": "https://github.com/PortChaw/angular-snowflake/issues"
   },
-  "scripts": {
-    "postinstall": "bower install",
-    "test": "karma start karma.unit.conf.js --single-run"
-  },
-  "devDependencies": {
-    "bower": "~1.3.2",
-    "karma": "~0.10.9"
-  }
+  "homepage": "https://github.com/PortChaw/angular-snowflake#readme"
 }
